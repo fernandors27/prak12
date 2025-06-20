@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daftar Film</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button onclick="logout()">Logout</button><br>
+  <h1>Daftar Film</h1>
+
+  <form id="form-film">
+    <input type="text" id="judul" placeholder="Judul" required />
+    <input type="text" id="deskripsi" placeholder="Deskripsi" required />
+    <input type="text" id="kategori" placeholder="Kategori" required />
+    <input type="text" id="gambar" placeholder="URL Gambar" required />
+    <button type="submit">Tambah Film</button>
+  </form>
+
+  <p id="loading" style="display: none">Sedang memuat data...</p>
+  <div id="daftar-film"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
