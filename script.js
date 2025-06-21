@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api/films';
+const API_URL = 'https://backend-film.up.railway.app/api/films';
 
 const container = document.getElementById("daftar-film");
 const loadingText = document.getElementById("loading");
