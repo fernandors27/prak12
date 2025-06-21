@@ -1,5 +1,5 @@
 function loginUser(username, password) {
-    fetch('http://localhost:5000/api/auth/login', {
+    fetch('https://backend-film.up.railway.app/api/auth/login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ username, password }) // ✅ username!
