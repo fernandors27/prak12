@@ -27,5 +27,4 @@ function loginUser(username, password) {
         loginUser(username, password);
       });
     }
-  });
-  
+  }); 
